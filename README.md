@@ -1,48 +1,40 @@
-# 🎓 Student Management System (Java)
+# 🏦 Simple Banking Application in Java
 
-A simple, menu-driven **Student Management System** in Java that demonstrates:
+A console-based banking application that allows users to:
 
-- 📚 Object-Oriented Programming
-- 👨‍👩‍👧‍👦 Class Inheritance (`Student` inherits from `Person`)
-- 📥 User Input Handling
-- 📊 Grade Calculation Logic
-- 🧠 ArrayList usage to manage multiple student records
+- Create bank accounts  
+- Deposit money  
+- Withdraw money  
+- View account details  
+- Update contact details  
 
----
-
-## 📌 Features
-
-- Add student details (name, roll number, course, marks)
-- Automatically calculate grade based on marks
-- Display all added student records
-- Uses Java best practices (constructors, class hierarchy, encapsulation)
+This project demonstrates core OOP concepts like encapsulation and arrays, as well as basic user input handling in Java.
 
 ---
 
-## 🧱 Class Structure
+## 📋 Features
 
-- Person (Base Class)
-  - Student (Inherits Person)
-    - rollNo : int
-    - course : String
-    - marks  : double
-    - grade  : char
-    - inputDetails()
-    - displayDetails()
-    - calculateGrade()
+- Create new bank accounts with unique account numbers
+- Store account holder name, balance, email, and phone number
+- Deposit and withdraw money with validation
+- View detailed account information
+- Update contact information (email and phone)
+- Simple menu-driven interface for easy interaction
 
-Main logic is in the `StudentManagement` class (contains `main()`).
+---
+
+## 🏗️ Project Structure
+
+| Class    | Responsibility                                       |
+|----------|-----------------------------------------------------|
+| Account  | Represents a bank account with fields & methods     |
+| Main     | Manages user interaction, stores accounts, and menu |
 
 ---
 
 ## 🚀 How to Run
 
-### Prerequisites:
-- Java JDK installed (v8 or above)
-- Any Java IDE (IntelliJ, Eclipse) or command line
-
-### 🛠 Compile & Run from Terminal
-
-```bash
-javac StudentManagement.java
-java StudentManagement
+1. Save the code in a file named `Main.java`  
+2. Compile using:  
+   ```bash
+   javac Main.java
