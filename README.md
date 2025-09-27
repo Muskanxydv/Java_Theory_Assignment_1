@@ -21,7 +21,15 @@ A simple, menu-driven **Student Management System** in Java that demonstrates:
 
 ## 🧱 Class Structure
 
-<pre> ```text Person (Base Class) └── Student (Inherits Person) ├── rollNo : int ├── course : String ├── marks : double ├── grade : char ├── inputDetails() ├── displayDetails() └── calculateGrade() ``` </pre>
+- Person (Base Class)
+  - Student (Inherits Person)
+    - rollNo : int
+    - course : String
+    - marks  : double
+    - grade  : char
+    - inputDetails()
+    - displayDetails()
+    - calculateGrade()
 
 Main logic is in the `StudentManagement` class (contains `main()`).
 
